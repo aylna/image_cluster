@@ -10,3 +10,9 @@ DBScan choosen because clusters created without knowing number of clusters
 
 VAE is used for generalizing images 
 [Vae Documentation!](https://blog.keras.io/building-autoencoders-in-keras.html)
+
+### Docker usage
+```
+docker build -t imagecluster .
+docker run imagecluster
+```
